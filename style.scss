@@ -118,6 +118,17 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.tags a {
+  background: #e2e2e2;
+  color: #3e3e3e;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  margin-right: 10px;
 }
 
 // Specify the color of the selection
