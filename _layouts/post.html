@@ -13,21 +13,15 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
   
-  <div class="tag">
-  {{page.tags | capitalize | join: ', '}}
-  </div>
-  
-  <div class="post-tags">
-  {% if post %}
+  <div class="tags">
+    {% if post %}
     {% assign tags = post.tags %}
-  {% else %}
+    {% else %}
     {% assign tags = page.tags %}
-  {% endif %}
-  {% for tag in tags %}
-  <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
+    {% endif %}
+    {% for tag in tags %}
+    <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
+    {% unless forloop.last %}&nbsp;{% endunless %}
+    {% endfor %}
   </div>
-
-  {% include disqus.html %}
 </article>
