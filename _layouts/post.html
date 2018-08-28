@@ -13,8 +13,8 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
   
-  <div class="cat">
-  {{page.categories | capitalize | join: ', '}}
+  <div class="tag">
+  {{page.tags | capitalize | join: ', '}}
   </div>
 
   {% include disqus.html %}
