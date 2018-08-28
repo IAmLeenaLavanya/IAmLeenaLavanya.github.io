@@ -3,7 +3,7 @@ layout: post
 title:  "Using Canvas to Create Cloth that Moves"
 date:   2018-08-27 19:30:00 +0800
 categories: ""
-tags: "canvas, javascript, html"
+tags: [canvas,javascript,html]
 published: true
 ---
 
