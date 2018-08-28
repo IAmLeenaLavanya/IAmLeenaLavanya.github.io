@@ -4,7 +4,7 @@ title:  "Using <Canvas> to Create Cloth that Moves"
 date:   2018-08-27 19:30:00 +0800
 categories: ""
 tags: "canvas, javascript, html"
-published: false
+published: true
 ---
 
 (http://geeks.thefastmode.com/the-developer/5469-forming-the-galaxy-with-a-html5-canvas-as-the-background)<p>Last week, I completed a pen that turned any image into swaying cloth. At first, it had 0 hits but the next day, after it was picked, I got over 1139 hits in a matter of 24 hours. That's why I decide to write a post on how to create such an effect with the HTML5 Canvas.</p>
