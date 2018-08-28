@@ -13,12 +13,8 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
   
-  <div class="tags">
-  {% assign tags = post.tags %}
-  {% for tag in tags %}
-  <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
+  <div class="cat">
+  {{page.categories | capitalize | join: ', '}}
   </div>
 
   {% include disqus.html %}
