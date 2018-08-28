@@ -7,9 +7,9 @@ tags: "canvas, javascript, html"
 published: true
 ---
 
-Last week, I completed a pen that turned any image into swaying cloth. At first, it had 0 hits but the next day, after it was picked, I got over 1139 hits in a matter of 24 hours. That's why I decide to write a post on how to create such an effect with the HTML5 Canvas.
+<p>Last week, I completed a pen that turned any image into swaying cloth. At first, it had 0 hits but the next day, after it was picked, I got over 1139 hits in a matter of 24 hours. That's why I decide to write a post on how to create such an effect with the HTML5 Canvas.</p>
 
-###The HTML/CSS
+<h3>The HTML/CSS</h3>
 
 ```html
 <canvas id="c" width="560" height="350"></canvas>
@@ -22,10 +22,10 @@ Last week, I completed a pen that turned any image into swaying cloth. At first,
 html,body{margin:0;padding:0;height:100%;width:100%;background:#f0f0f0}#c{max-width:calc(100% - 20px);margin:0px auto;display:block}#canv,#imgt{display:none}
 ```
 
-The first canvas (`#c`) is the main canvas and is where the cloth will be drawn. The image at the very bottom of the code is the image that will be used to make the cloth (it can be linked to any image url) and the other canvas (`#canv`) is used to resize the image to the size of the cloth as well move the image with the swaying of the cloth.
+<p>The first canvas (`#c`) is the main canvas and is where the cloth will be drawn. The image at the very bottom of the code is the image that will be used to make the cloth (it can be linked to any image url) and the other canvas (`#canv`) is used to resize the image to the size of the cloth as well move the image with the swaying of the cloth.</p>
 
 <h3>Drawing Strings</h3>
-##The Variables</h4>
+<h4>The Variables</h4>
 
 ```js
 var c = document.getElementById("c");
@@ -51,7 +51,7 @@ var i;
 - linesNumber = an approximate calculation of the total number of strings. It is used in a loop to make sure the loop doesn't run too many times.
 - times/i = variables also used in the loop
 
-##The Loop
+<h3>The Loop</h3>
 
 ```js
 function drawCircle() {
@@ -85,10 +85,9 @@ function drawCircle() {
 
 ```
 
-The function (`drawCircle()`) is **very** inappropriately named but I would ignore it for now. It clears the canvas, draws the horizontal lines, then the vertical ones, updates the new positions (to make it move) and then starts the process again and again to give it an animated effect.
+<p>The function (`drawCircle()`) is **very** inappropriately named but I would ignore it for now. It clears the canvas, draws the horizontal lines, then the vertical ones, updates the new positions (to make it move) and then starts the process again and again to give it an animated effect.</p>
 
- 
-##Placing an Image as the Background
+<h3>Placing an Image as the Background</h3>
 
 ```js
 	loadBackground(range * 1.2, 0);
