@@ -73,3 +73,34 @@ int main()
     return 0;
 }
 ```
+
+## Solution to Test Set 2
+
+```c++
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int main()
+{
+    int t;
+    cin >> t;
+    
+    for (int i = 0; i < t; ++i) {
+        int result = -1;
+        int n;
+        cin >> n;
+        vector<int> ns (n);   
+        
+        for (int j = 0; j < n; ++j) {
+            int x;
+            cin >> x;
+            ns[j] = x;
+        }
+        
+        if (result == -1) {cout << "Case #" << (i + 1) << ": " << ns[0] << ns[1] << ns[2] << ns[3] << ns[4] << ns[5] << ns[6] << ns[7] << endl;}
+    }
+    return 0;
+}
+```
