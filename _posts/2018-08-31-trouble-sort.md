@@ -1,13 +1,18 @@
 ---
 layout: post
-title:  "Trouble Sort - 2nd Try at Google Code Jam"
+title:  "Trouble Sort Solution - 2nd Try at Google Code Jam"
 date:   2018-08-31 16:30:00 +0800
 tags: [c++, google code jam]
 published: false
 ---
 
+This is the second piece of C++ code I've written. It's bound to be awful - do forgive me. It's the solution to the 2018 Google Code Jam Qualifying Round B. I'm going to split the solution into parts.
+
+## Function TroubleSort() In C++
+
+The below code just performs the trouble sort function. It returns the sorted list of integers as a vector object.
+
 ```c++
-#include <iostream>
 #include <vector>
 using namespace std;
 
@@ -26,6 +31,15 @@ vector<int> trouble(vector<int> ints) {
     }
     return ints;
 }
+```
+
+## Solution to Test Set 1
+
+Given that `3 ≤ N ≤ 100`, the following solution did not exceed the time limit.
+
+```c++
+#include <iostream>
+using namespace std;
 
 int main()
 {
