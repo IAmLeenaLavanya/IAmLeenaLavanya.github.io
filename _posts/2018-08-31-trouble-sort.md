@@ -35,7 +35,7 @@ vector<int> trouble(vector<int> ints) {
 
 ## Solution to Test Set 1
 
-Given that 3 ≤ N ≤ 100, the following solution did not exceed the time limit.
+Given that `3 ≤ N ≤ 100`, the following solution did not exceed the time limit.
 
 ```c++
 #include <iostream>
@@ -76,7 +76,7 @@ int main()
 
 ## Solution to Test Set 2
 
-For the second test set 3 ≤ N ≤ 10<sup>5</sup> so TroubleSort() takes way too much time.
+For the second test set `3 ≤ N ≤ 10^5` so `trouble()` takes way too much time. Here's a faster solution:
 
 ```c++
 #include <iostream>
