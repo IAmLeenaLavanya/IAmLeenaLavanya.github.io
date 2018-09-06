@@ -6,7 +6,7 @@ tags: [c++,daily coding problem]
 published: true
 ---
 
-The Daily Coding Problem (Day 3) was given an array of integers, to return the first postive integer missing. The solution below was to first create a vector of all the non-negative and non-zero integers inputed and then loop from 1 to the largest integer in the vector, looking for the first one missing.
+The Daily Coding Problem (Day 3) was given an array of integers, to return the first postive integer missing. The inputed array could contain duplicate and negative numbers. For instance, given an array of [-2 -1, 4, 4, 1, 3], the program should return 2. The solution below was to first create a vector of all the non-negative and non-zero integers inputed and then loop from 1 to the largest integer in the vector, looking for the first one missing.
 
 
 ```c++
