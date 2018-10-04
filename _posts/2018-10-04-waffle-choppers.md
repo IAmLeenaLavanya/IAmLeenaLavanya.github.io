@@ -3,10 +3,12 @@ layout: post
 title:  "Waffle Choppers - Test Set 1 Solution for Google Code Jam 2018"
 date:   2018-10-04 11:50:00 +0800
 tags: [c++, google code jam]
-published: false
+published: true
 ---
 
+The Small Test Set for Round 1A Google Code Jam 2018 required that given an `n` number of test cases (each containing information on the number of rows and columns of a waffle (waffle squares?) and whether or not each waffle square has a chocolate chip) one should determine whether any combination of one vertical slice and one horizontal slice can result in four pieces with exactly the same number of chocolate chips.
 
+Given that the maximum number of possible horizontal and vertical cuts combinations is `(9 - 1) x (9 - 1) = 81`, one possible solution was to identify all the possible combinations and see how many chocolate chips each slice would get. If in any combination, the number of chocolate chips in all four slices are the same, then the case is POSSIBLE.
 
 ```c++
 #include <iostream>
@@ -41,7 +43,7 @@ int main()
 }
 ```
 
-We need to check whether given a horizontal cut and a vertical cut, do each of the four resultant waffle pieces have an equal number of chocolate chips. This can be done by the function below:
+We need to check whether given a horizontal cut and a vertical cut, each of the four resultant waffle pieces have an equal number of chocolate chips. This can be done by the function below (I am aware that a function counting chocolate chips should not be named cookie - but I seemed to have gotten that mixed up):
 
 ```c++
 bool cookie(int row, int col, int i_c, int i_r, vector<vector<int>> waffle) 
