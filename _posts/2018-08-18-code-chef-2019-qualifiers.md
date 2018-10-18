@@ -3,7 +3,7 @@ layout: post
 title:  "Solution for SnackDown 2019: Qualifying to Pre-Elimination"
 date:   2018-10-18 11:50:00 +0800
 tags: [c++]
-published: false
+published: true
 ---
 
 Problem QUALPREL in the Online Qualifiers of the Code Chef SnackDown 2019 required that given a `N` number of scores `S` and an integer `K`, one should output the number the number of scores that are higher than or equal to the `Kth` highest score.
