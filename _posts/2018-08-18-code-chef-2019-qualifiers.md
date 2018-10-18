@@ -6,8 +6,7 @@ tags: [c++]
 published: false
 ---
 
-
-
+Problem QUALPREL in the Online Qualifiers of the Code Chef SnackDown 2019 required that given a `N` number of scores `S` and an integer `K`, one should output the number the number of scores that are higher than or equal to the `Kth` highest score.
 
 ```c++
 #include <iostream>
