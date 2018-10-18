@@ -3,8 +3,12 @@ layout: post
 title:  "Chef and Semi-Primes - 2019 Code Chef SnackDown"
 date:   2018-10-18 11:50:00 +0800
 tags: [c++]
-published: false
+published: true
 ---
+
+In the 2019 SnackDown, the problem Chef and Semi-Primes (CHEFPRMS) required that given an integer `N`, one must determine whether it can be expressed as a sum of two square-free semi-primes. The time limit is 1s for a maximum number of test cases of 200, where the maximum value of any `N` is 200.
+
+The following solution loops through all the possible pairs that sum up to `N` and checks whether both integers of the pair are square-free semi-primes.
 
 ```c++
 #include <iostream>
