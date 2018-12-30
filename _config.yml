@@ -6,7 +6,7 @@
 name: Leena Lavanya | @IAmLeenaLavanya
 
 # Short bio or description (displayed in the header)
-description: "HTML (+Canvas/SVG), CSS (+SASS/SCSS), JavaScript (+JQuery). C++ & PHP. 😀"
+description: "HTML (+Canvas/SVG), CSS (+SASS/SCSS), JavaScript (+JQuery). C++ & PHP. 😀. More at [https://codepen.io/leenalavanya, https://twitter.com/IAmLeenaLavanya, https://github.com/IAmLeenaLavanya, https://dribbble.com/leenalavanya, https://www.hackerrank.com/leenalavanya, https://www.codechef.com/users/leenalavanya, https://stackoverflow.com/users/3925066/leena-lavanya]
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: "https://avatars1.githubusercontent.com/u/24468569?s=400&u=2c35cdee1c7667e98c67ca8520b84fbcd9b303e1&v=4"
@@ -19,7 +19,7 @@ avatar: "https://avatars1.githubusercontent.com/u/24468569?s=400&u=2c35cdee1c766
 footer-links:
   dribbble: leenalavanya
   email: ariana.lynn@thefastmode.com
-  facebook:
+  facebook: leena.lavanya
   flickr:
   github: IAmLeenaLavanya
   instagram:
@@ -27,7 +27,7 @@ footer-links:
   pinterest:
   rss: rss
   twitter: IAmLeenaLavanya
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: users/3925066/leena-lavanya
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
