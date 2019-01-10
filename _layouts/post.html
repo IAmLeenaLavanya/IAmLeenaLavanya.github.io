@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<article class="post">
+<div class="post">
   <h1>{{ page.title }}</h1>
   
-  <div class="tags">
+  <div class="post_tags">
     {% if post %}
     {% assign tags = post.tags %}
     {% else %}
@@ -16,11 +16,11 @@ layout: default
     {% endfor %}
   </div>
 
-  <div class="date">
+  <div class="post_date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
-  <div class="entry">
+  <div class="post_entry">
     {{ content }}
   </div>
-</article>
+</div>
