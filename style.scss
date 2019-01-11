@@ -39,4 +39,14 @@ body {
 .site_middle {
   width: 70%;
   overflow-Y: scroll;
+  
+  &::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 0 5px #eeeeee;
+    background: rgba(0, 0, 0, 0.1);
+  }
 }
