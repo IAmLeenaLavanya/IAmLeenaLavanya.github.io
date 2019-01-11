@@ -5,3 +5,19 @@
 @import "variables";
 @import "highlights";
 @import "svg-icons";
+
+.site_top, .site_middle {
+  display: inline-block;
+  height: 100vh;
+  padding: 40px;
+}
+
+.site_top {
+  width: 30%;
+  margin-right: -4px;
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+}
+
+.site_middle {
+  width: 70%;
+}
