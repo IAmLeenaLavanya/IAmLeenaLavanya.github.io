@@ -41,12 +41,12 @@ body {
   overflow-Y: scroll;
   
   &::-webkit-scrollbar {
-    width: 15px;
+    width: 20px;
   }
   
-  &::-webkit-scrollbar-thumb {
+  .site_middle::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 0 5px #eeeeee;
-    background: rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 0 0 8px #f9f9f9;
+    background: rgb(169, 169, 169);
   }
 }
