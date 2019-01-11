@@ -6,6 +6,10 @@
 @import "highlights";
 @import "svg-icons";
 
+body {
+  overflow: hidden
+}
+
 .site_top, .site_middle {
   display: inline-block;
   height: 100vh;
@@ -17,16 +21,16 @@
   width: 30%;
   margin-right: -4px;
   background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
-  position: fixed;
-  top: 0;
-  left: 0;
   
   .site_title img {
-    width: 200px;
+    width: 140px;
     border-radius: 100%;
+    border: 3px solid #212121;
+    paddin: 3px;
   }
 }
 
 .site_middle {
   width: 70%;
+  overflow-Y: scroll;
 }
