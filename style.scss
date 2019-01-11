@@ -26,16 +26,10 @@ body {
   background: #2d2d2d;
   color: white;
   
-  .site_title {
-    color: inherit;
-    
-    img {
-      width: 140px;
-      border-radius: 100%;
-      border: 3px solid #212121;
-      padding: 3px;
-      margin: 0 auto 20px;
-    }
+  .site_description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 }
 
