@@ -6,8 +6,11 @@
 @import "highlights";
 @import "svg-icons";
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+
 body {
-  overflow: hidden
+  overflow: hidden;
+  font-family: 'Roboto Slab', serif;
 }
 
 .site_top, .site_middle {
@@ -20,7 +23,7 @@ body {
 .site_top {
   width: 30%;
   margin-right: -4px;
-  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  background-image: #2d2d2d;
   
   .site_title img {
     width: 140px;
