@@ -20,7 +20,6 @@ body {
 .site_top, .site_middle {
   display: inline-block;
   height: 100vh;
-  padding: 40px;
   vertical-align: top;
 }
 
@@ -29,6 +28,7 @@ body {
   margin-right: -4px;
   background: $black;
   color: white;
+  padding: 40px;
   
   .site_name {
     position: absolute;
@@ -41,6 +41,7 @@ body {
 .site_middle {
   width: 70%;
   overflow-Y: scroll;
+  padding: 37.5px 40px;
   
   &::-webkit-scrollbar {
     width: 24px;
@@ -55,12 +56,12 @@ body {
 
 article.post {
   background: #fbfbfb;
-  margin-bottom: 25px;
+  margin: 12.5px 0;
   
   h1 {
     font-size: 28px;
     font-weight: bold;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
     
     a {
       color: $black;
