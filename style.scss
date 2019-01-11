@@ -26,10 +26,11 @@ body {
   background: #2d2d2d;
   color: white;
   
-  .site_description {
+  .site_name {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 40px;
+    left: 40px;
+    font-size: 30px;
   }
 }
 
