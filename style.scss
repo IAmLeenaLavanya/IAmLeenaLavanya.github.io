@@ -17,6 +17,14 @@
   width: 30%;
   margin-right: -4px;
   background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  .site_title img {
+    width: 200px;
+    border-radius: 100%;
+  }
 }
 
 .site_middle {
