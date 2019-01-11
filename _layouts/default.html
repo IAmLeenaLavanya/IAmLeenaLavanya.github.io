@@ -12,23 +12,20 @@
 
   <body>
     <div class="site_top">
+      <nav>
+        <a href="{{ site.baseurl }}/">Blog</a>
+        <a href="{{ site.baseurl }}/snippets/">Snippets</a>
+      </nav>
       <a class="site_title" href="{{ site.baseurl }}/" class="site-avatar">
         <img src="{{ site.avatar }}" />
         {{ site.name }}
       </a>
       <p class="site_description">{{ site.description }}</p>
-      <nav>
-        <a href="{{ site.baseurl }}/">Blog</a>
-        <a href="{{ site.baseurl }}/snippets/">Snippets</a>
-      </nav>
+      {% include svg-icons.html %}
     </div>
     
     <div id="main" role="main" class="site_middle">
       {{ content }}
-    </div>
-
-    <div class="site_footer">
-      {% include svg-icons.html %}
     </div>
 
     {% include analytics.html %}
