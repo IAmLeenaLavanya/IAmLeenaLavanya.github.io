@@ -16,8 +16,10 @@
         <a href="{{ site.baseurl }}/">Blog</a>
         <a href="{{ site.baseurl }}/snippets/">Snippets</a>
       </nav>
-      <p class="site_description">{{ site.description }}</p>
-      {% include svg-icons.html %}
+      <p class="site_name">{{ site.name }}</p>
+      <div class="site_icons">
+        {% include svg-icons.html %}
+      </div>
     </div>
     
     <div id="main" role="main" class="site_middle">
