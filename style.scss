@@ -11,6 +11,7 @@
 $black: #2d2d2d;
 $gray: #545454;
 $silver: #bdbdbd;
+$red: #FF1744;
 
 body {
   overflow: hidden;
@@ -86,7 +87,7 @@ body {
   margin-bottom: 30px;
   
   h1.post_title {
-    font-size: 26px;
+    font-size: 27px;
     margin: 3px 0 9px;
     
     a {
@@ -94,7 +95,7 @@ body {
       text-decoration: none;
       
       &:hover {
-        color: #FF1744;
+        color: $red;
         text-decoration: underline;
       }
     }
@@ -103,6 +104,10 @@ body {
   div.post_entry {
     font-size: 15px;
     color: $gray;
+    
+    p {
+      margin: 10px 0;
+    }
   }
   
   p.post_date {
@@ -119,13 +124,14 @@ body {
       color: $gray;
       text-decoration: none;
       font-size: 13px;
-      padding: 3px 12px 4px;
+      padding: 0 5px;
+      text-transform: uppercase;
       border: 1px solid $gray;
       transition: all .2s;
       
       &:hover {
-        background: $gray;
-        color: white
+        text-decoration: underline;
+        color: $red;
       }
     }
   }
