@@ -6,6 +6,7 @@
   width: 27px;
   background-repeat: no-repeat;
   display: inline-block;
+  transition: all .4s;
   
   &:hover {filter: invert(100%);}
   
