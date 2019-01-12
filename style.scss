@@ -10,7 +10,7 @@
 
 $black: #2d2d2d;
 $gray: #545454;
-$silver: #c5c5c5;
+$silver: #bdbdbd;
 
 body {
   overflow: hidden;
@@ -78,7 +78,7 @@ body {
   &::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 0 8px white;
-    background: $gray;
+    background: $silver;
   }
 }
 
@@ -87,7 +87,7 @@ article.post {
   
   h1.post_title {
     font-size: 26px;
-    margin: 6px 0 7px;
+    margin: 3px 0 7px;
     
     a {
       color: $black;
