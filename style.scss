@@ -91,6 +91,11 @@ article.post {
     a {
       color: $black;
       text-decoration: none;
+      
+      &:hover {
+        color: #FF1744;
+        text-decoration: underline;
+      }
     }
   }
   
