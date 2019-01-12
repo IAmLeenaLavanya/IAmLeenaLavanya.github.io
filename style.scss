@@ -14,7 +14,6 @@ body {
   overflow: hidden;
   font-family: 'Roboto Slab', serif;
   line-height: 1.65;
-  background-color: #fbfbfb;
 }
 
 .site_top, .site_middle {
@@ -82,17 +81,21 @@ body {
 }
 
 article.post {
-  background: #fbfbfb;
   margin: 25px 0;
+  color: $black;
   
   h1 {
     font-size: 26px;
-    text-decoration: none;
     font-style: italic;
     margin-bottom: 7px;
     
     a {
-      color: $black;
+      color: inherit;
+      text-decoration: none;
     }
+  }
+  
+  div.entry {
+    font-size: 18px
   }
 }
