@@ -67,7 +67,7 @@ body {
 .site_middle {
   width: 70%;
   overflow-Y: scroll;
-  padding: 7px 50px;
+  padding: 30px 50px 0;
   
   &::-webkit-scrollbar {
     width: 23px;
@@ -81,7 +81,7 @@ body {
 }
 
 article.post {
-  margin: 30px 0;
+  margin-bottom: 30px;
   color: $black;
   
   h1 {
