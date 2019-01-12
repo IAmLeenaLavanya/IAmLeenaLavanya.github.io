@@ -85,7 +85,7 @@ body {
 article.post {
   margin-bottom: 30px;
   
-  h1 {
+  h1.post_title {
     font-size: 26px;
     margin: 6px 0 7px;
     
@@ -100,12 +100,12 @@ article.post {
     }
   }
   
-  .post_entry {
+  div.post_entry {
     font-size: 15px;
     color: $gray;
   }
   
-  p {
+  p.post_date {
     color: $silver;
     text-transform: uppercase;
     font-weight: 300;
