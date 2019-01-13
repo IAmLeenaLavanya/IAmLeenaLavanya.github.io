@@ -4,6 +4,7 @@ permalink: /tags/
 title: Tags
 ---
 
+{% for tag in site.tags %}
 <div class="posts">
   {% capture tag_name %}{{ tag | first }}{% endcapture %}
   <div id="#{{ tag_name | slugize }}"></div>
@@ -15,3 +16,4 @@ title: Tags
   </div>
   {% endfor %}
 </div>
+{% endfor %}
