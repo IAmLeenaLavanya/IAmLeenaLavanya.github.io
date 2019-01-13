@@ -6,6 +6,8 @@ tags: [c++, snippets]
 published: true
 ---
 
+What this does is read integer by integer from cin and insert it at the beginning of a string variable. The string variable is then printed to cout. Another way to do this would be to create a vector, store the integers and then print it in reverse - but that would take two loops.
+
 Sample Input:
 
 `5`
