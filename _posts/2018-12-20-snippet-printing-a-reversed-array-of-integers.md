@@ -2,7 +2,7 @@
 layout: post
 title:  "Printing A Reversed Array of Integers"
 date:   2018-12-30 15:40:00 +0800
-tags: [c++, snippets]
+tags: [c++]
 published: true
 ---
 
