@@ -14,7 +14,7 @@
     <div class="site_top">
       <nav>
         <a href="{{ site.baseurl }}/">Home</a>
-        <a href="{{ site.baseurl }}/snippets/">Code Snippets</a>
+        <a href="{{ site.baseurl }}/tags/">Tags</a>
       </nav>
       <div class="site_name">
         <p>{{ site.name }}</p>
@@ -24,8 +24,11 @@
       </div>
     </div>
     
-    <div id="main" role="main" class="site_middle">
+    <div class="site_middle">
       {{ content }}
+      <div class="site_bottom">
+        © Copyright 2019 Leena Lavanya. Icons by <a href="https://fontawesome.com/license/">Font Awesome</a>. Image Credit: <a href="https://unsplash.com/@bugsster">Taras Shypka</a> on <a href="https://unsplash.com">Unsplash</a>.
+      </div>
     </div>
 
     {% include analytics.html %}
