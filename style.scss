@@ -17,8 +17,12 @@ a {
   color: $red;
 }
 
-p, h1, h2, h3, h4, h5, h6, ul, ol, .cp_embed_wrapper {
+p, h1, h2, h3, h4, h5, h6, ul, ol {
   margin: 0 0 15px;
+}
+
+.cp_embed_wrapper {
+  margin: 20px 0 15px;
 }
 
 h4, h5, h6 {
@@ -47,6 +51,10 @@ h5 {
 
 h6 {
   font-size: 20px;
+}
+
+ol, ul, li {
+    padding-left: 1em;
 }
 
 body {
