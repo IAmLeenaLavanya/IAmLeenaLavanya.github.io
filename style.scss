@@ -129,7 +129,7 @@ body {
   
   h1.post_title {
     font-size: 28px;
-    margin: 3px 0 9px;
+    margin: 0 0 9px;
     
     a {
       color: $black;
@@ -151,6 +151,7 @@ body {
     color: $silver;
     text-transform: uppercase;
     font-weight: 300;
+    margin: 0 0 7px;
   }
   
   .post_tags {
@@ -172,13 +173,3 @@ body {
     }
   }
 }
-
-
-// CODEPEN STYLING
-
-nav#embed-nav{height:54px!important}
-footer#embed-footer{height:44px!important;padding:4px 10px!important}
-footer#embed-footer:before{border:1px solid #e4e4e4!important;height:0!important;margin-bottom:0!important;box-shadow:none!important}
-div#output{height:calc(100% - 50px - 44px)!important}
-button#rerun-button{top:5px}
-ul.scaling-choices.bottom.right{top:5px}
