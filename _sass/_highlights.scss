@@ -13,6 +13,11 @@ code {
   font-family: 'PT Mono', monospace;
 }
 
+code.highlighter-rouge {
+    background: #f8f8f8;
+    padding: 3px 5px;
+}
+
 .highlight .cm {
   color: #999988;
   font-style: italic;
