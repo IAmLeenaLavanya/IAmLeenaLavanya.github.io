@@ -57,6 +57,11 @@ ol, ul, li {
     padding-left: 1em;
 }
 
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
 body {
   overflow: hidden;
   font-family: 'Roboto Slab', serif;
