@@ -3,10 +3,10 @@ layout: post
 title:  "How Many Pairs of Perfect Squares? - Facebook Hacker Cup 2011 Qualification Round"
 date:   2019-01-28 17:00:00 +0800
 tags: [javascript]
-published: false
+published: true
 ---
 
-We had to find
+This finds, given an integer, the number of pairs of perfect squares whose sum equal that number. t is the array of integers for which we will run the program.
 
 ```javascript
 var t = [];
