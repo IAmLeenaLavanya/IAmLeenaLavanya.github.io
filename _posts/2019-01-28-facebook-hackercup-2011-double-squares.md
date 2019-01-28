@@ -20,13 +20,13 @@ function number_of_square_pairs(t) {
             if (v == Math.round(v)) c++;
         }
     }
-	return c;
+    return c;
 }
 
 function main() {
-	var n = t.length;
-	for (var i = 0; i < n; i++) {
-	    console.log("Case #" + (i + 1) + ": " + number_of_square_pairs(t[i]));
-	}
+    var n = t.length;
+    for (var i = 0; i < n; i++) {
+        console.log("Case #" + (i + 1) + ": " + number_of_square_pairs(t[i]));
+    }
 }
 ```
