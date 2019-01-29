@@ -2,7 +2,7 @@
 layout: post
 title:  "Saving The Universe Again - An Amateur Solution"
 date:   2018-08-31 09:30:00 +0800
-tags: [c++, google code jam]
+tags: [c++, google code jam, competitive programming]
 published: true
 ---
 
