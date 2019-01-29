@@ -2,7 +2,7 @@
 layout: post
 title:  "Waffle Choppers - Test Set 1 Solution for Google Code Jam 2018"
 date:   2018-10-04 11:50:00 +0800
-tags: [c++, google code jam]
+tags: [c++, google code jam, competitive programming]
 published: true
 ---
 
