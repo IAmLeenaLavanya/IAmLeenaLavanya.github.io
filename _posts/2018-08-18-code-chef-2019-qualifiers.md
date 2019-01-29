@@ -2,7 +2,7 @@
 layout: post
 title:  "Solution for SnackDown 2019: Qualifying to Pre-Elimination"
 date:   2018-10-18 11:50:00 +0800
-tags: [c++]
+tags: [c++, competitive programming, codechef]
 published: true
 ---
 
