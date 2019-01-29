@@ -2,7 +2,7 @@
 layout: post
 title:  "How Many Pairs of Perfect Squares? - Facebook Hacker Cup 2011 Qualification Round"
 date:   2019-01-28 17:00:00 +0800
-tags: [javascript]
+tags: [javascript, facebook hacker cup, competitive programming]
 published: true
 ---
 
