@@ -2,7 +2,7 @@
 layout: post
 title:  "Trouble Sort Solution - 2nd Try at Google Code Jam"
 date:   2018-08-31 16:30:00 +0800
-tags: [c++, google code jam]
+tags: [c++, google code jam, competitive programming]
 published: true
 ---
 
