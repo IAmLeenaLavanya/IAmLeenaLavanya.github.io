@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Lexicographically Lowest Concatenation of Strings - Facebook Hacker Cup 2011 Qualification Round"
-date:   2019-01-28 17:00:00 +0800
+date:   2019-01-29 14:30:00 +0800
 tags: [c++, facebook hacker cup, competitive programming]
-published: false
+published: true
 ---
 
 Given an array of a maximum of 9 strings, the below code outputs the lexicographically lowest concatenation of said strings. A normal sort function would compare `string a < string b` but will not output the lexicographically lowest combination given there a different number of characters in each string, hence the `(a + b) < (b + a)`.
