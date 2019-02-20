@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Code Chef February Challenge Div. 2 2019 - Appy and Contest"
-date:   2018-10-18 11:50:00 +0800
+date:   2019-02-19 9:30:00 +0800
 tags: [c++, competitive programming, codechef, math]
 published: true
 ---
