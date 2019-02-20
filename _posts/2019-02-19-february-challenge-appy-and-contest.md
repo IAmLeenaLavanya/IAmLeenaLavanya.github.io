@@ -3,12 +3,12 @@ layout: post
 title:  "Code Chef February Challenge Div. 2 2019 - Appy and Contest"
 date:   2018-10-18 11:50:00 +0800
 tags: [c++, competitive programming, codechef, math]
-published: false
+published: true
 ---
 
-Problem HMAPPY2 in the February Challenge 2019 Code Chef (Division 2) .
+Problem HMAPPY2 in the February Challenge 2019 Code Chef (Division 2) basically required finding the number of integers between 1 and N that are divisible by an integer A and not divisible by an integer B or divisible by B and not divisible by A. If the number was found to be more than K we output "Win", if not "Lose". There are T test cases.
 
-Given the below constraints, the program can loop through all integers from 1 to N, counting the number of integers that are either divisible by A and not B or B and not A.
+Given the below constraints, the program can loop through all integers from 1 to N.
 
 * 1 ≤ T ≤ 15
 * 1 ≤ K ≤ N ≤ 10^6
@@ -41,10 +41,10 @@ using namespace std;
 
 int main() {
 	int t; cin >> t;
-	unsigned long long n, a, b, k, lcm;
+	unsigned long long int n, a, b, k, lcm;
 	while (t--) {
 	    cin >> n >> a >> b >> k;
-	    unsigned long long q = ((a > b) ? b : a), r = ((a > b) ? a : b), i = 0;
+	    unsigned long long int q = ((a > b) ? b : a), r = ((a > b) ? a : b), i = 0;
 	    while (r != 0) i = q % r, q = r, r = i;
 	    lcm = (a * b) / q;
 	    cout << ((((n / a) + (n / b) - ((n / lcm) * 2)) >= k) ? "Win" : "Lose") << endl;
@@ -52,3 +52,5 @@ int main() {
 	return 0;
 }
 ```
+
+When tested on their respective test cases, both solutions took zero time.
