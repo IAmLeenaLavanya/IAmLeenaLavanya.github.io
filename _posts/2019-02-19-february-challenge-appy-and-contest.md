@@ -29,7 +29,7 @@ int main() {
 }
 ```
 
-A larger set of constraints disallows us from iterating through each integer. Instead, using the Euclidean algorithm we find the greatest common difference of A and B and divide (A x B) by it to find the lowest common multiple of the two integers. With the lowest common multiple are able to calculate the number of integers between 1 and N that are divisible by *both* A and B and subtract this from the number of integers divisible by A and the number of integers divisible by B.
+A larger set of constraints disallows us from iterating through each integer. Instead, using the Euclidean algorithm we find the greatest common divisor of A and B and divide (A x B) by it to find the lowest common multiple of the two integers. With the lowest common multiple are able to calculate the number of integers between 1 and N that are divisible by *both* A and B and subtract this from the number of integers divisible by A and the number of integers divisible by B.
 
 * 1 ≤ T ≤ 15
 * 1 ≤ K ≤ N ≤ 10^18
