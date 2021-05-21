@@ -6,7 +6,11 @@ tags: [c++, competitive programming, codechef]
 published: true
 ---
 
-The solution to SOLBLTY from Codechef's May Challenge 2021 Division 3 (Rated).
+The solution to SOLBLTY from Codechef's May Challenge 2021 Division 3 (Rated). We start off with 1000ml of water that can be dissolved at Ag/100ml. For a unit increase in temperature, the solubility of sugar increases by Bg/100ml.
+
+The answer can thus be found with the equation:
+
+Max amount of sugar = `(((100 - A) * B) + A) * 10`
 
 ```c++
 #include <iostream>
