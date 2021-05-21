@@ -3,10 +3,10 @@ layout: post
 title:  "Solution to CodeChef's May Long Challenge 2021 Division 3 Solubility"
 date:   2021-05-21 20:00:00 +0800
 tags: [c++, competitive programming, codechef]
-published: false
+published: true
 ---
 
-
+The solution to SOLBLTY from Codechef's May Challenge 2021 Division 3 (Rated).
 
 ```c++
 #include <iostream>
