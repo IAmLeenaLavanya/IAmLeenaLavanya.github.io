@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<div class="posts">
+<div class="category_item_container">
   {% for post in site.posts %}
-    <article class="post">
-      <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
+    <article class="category_item">
+      <p class="category_item_date">{{ post.date | date: "%B %e, %Y" }}</p>
 
-      <h3 class="post_title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <h3 class="category_item_title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </h3>
 
-      <div class="post_entry">
+      <div class="category_item_entry">
         {{ post.excerpt }}
       </div>
     </article>
