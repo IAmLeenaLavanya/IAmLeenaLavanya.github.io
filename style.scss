@@ -127,7 +127,7 @@ h3.category_item_title a {
 }
 
 h3.category_item_title a:hover {
-  color: red;
+  color: $red;
 }
 
 /* ------------------------------------- */
@@ -140,7 +140,7 @@ h3.category_item_title a:hover {
 
 h1.item_title {
  text-align:center;
-  margin-bottom: 20px
+  margin-bottom: 23px
 }
 
 .item_date {
@@ -148,6 +148,18 @@ h1.item_title {
 }
 
 .item_tags {
-  margin-bottom: 45px;
- text-align:center;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.item_tags a {
+    background: rgb(209 209 209);
+    color: rgb(255 255 255);
+    padding: 5px 11px 7px 11px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.item_tags:hover {
+  color: $red
 }
