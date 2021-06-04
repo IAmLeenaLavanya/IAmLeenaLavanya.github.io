@@ -1,20 +1,24 @@
-div.highlight {
-  background-color: #122b3b;
-  padding: 15px 20px;
-  margin: 20px 0 20px 0;
-  width: 100%;
-  word-break: break-word;
-  font-size: 16px;
-}
-
 @import url('https://fonts.googleapis.com/css?family=PT+Mono');
 
 code {
   font-family: 'PT Mono', monospace;
 }
 
+div.highlight {
+  padding: 15px 20px;
+  margin: 20px 0 20px 0;
+  width: 100%;
+  word-break: break-word;
+  font-size: 16px;
+  color: white
+}
+
+div.highlight, code.highlighter-rouge {
+  background-color: #122b3b;
+  color: white
+}
+
 code.highlighter-rouge {
-    background: #122b3b;
     padding: 3px 5px;
 }
 
