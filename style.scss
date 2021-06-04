@@ -15,6 +15,7 @@ $red: #FF1744;
 
 a {
   color: #FF1744;
+  text-decoration: none
 }
 
 p {
@@ -71,6 +72,24 @@ body {
 }
 
 /* ------------------------------------- */
+/*             SITE HEADER               */
+/* ------------------------------------- */
+
+.site_top {
+  padding: 60px;
+  text-align: center
+}
+
+.site_top p {
+  font-size: 40px;
+  font-weight: 600
+}
+
+.site_top nav {
+  margin-bottom: 20px
+}
+
+/* ------------------------------------- */
 /*                  POST                 */
 /* ------------------------------------- */
 
@@ -90,7 +109,6 @@ body {
 
 h3.post_title a {
   color: black;
-  text-decoration: none
 }
 
 h3.post_title a:hover {
