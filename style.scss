@@ -140,7 +140,7 @@ h3.category_item_title a:hover {
 
 h1.item_title {
  text-align:center;
-  margin-bottom: 23px
+  margin-bottom: 33px
 }
 
 .item_date {
@@ -148,7 +148,7 @@ h1.item_title {
 }
 
 .item_tags {
-  margin-bottom: 48px;
+  margin-bottom: 52px;
   text-align: center;
 }
 
@@ -160,6 +160,6 @@ h1.item_title {
     border-radius: 5px;
 }
 
-.item_tags:hover {
+.item_tags a:hover {
   color: $red
 }
