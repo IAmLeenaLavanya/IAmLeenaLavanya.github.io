@@ -149,7 +149,7 @@ h1.item_title {
 }
 
 .item_tags {
-  margin-bottom: 55px;
+  margin-bottom: 45px;
   text-align: center;
 }
 
@@ -159,7 +159,8 @@ h1.item_title {
     padding: 5px 11px 7px 11px;
     font-size: 13px;
     border-radius: 5px;
-  display: inline-block
+  display: inline-block;
+  margin-bottom: 10px
 }
 
 .item_tags a:hover {
