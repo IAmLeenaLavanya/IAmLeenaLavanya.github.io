@@ -14,7 +14,7 @@ $silver: #bdbdbd;
 $red: #FF1744;
 
 a {
-  color: $red;
+  color: #FF1744;
 }
 
 p, h1, h2, h3, h4, h5, h6, ul, ol {
@@ -54,7 +54,7 @@ h6 {
 }
 
 ol, ul, li {
-    padding-left: 1em;
+  padding-left: 1em;
 }
 
 pre {
@@ -63,126 +63,14 @@ pre {
 }
 
 body {
-  overflow: hidden;
-  font-family: 'Roboto Slab', serif;
-  line-height: 1.65;
+    font-family: 'Playfair Display', serif;
+    color: 
 }
 
-.site_top, .site_middle {
-  display: inline-block;
-  height: 100vh;
-  vertical-align: top;
+h3.post_title a {
+    color: black
 }
 
-.site_top {
-  width: 30%;
-  margin-right: -4px;
-  background-image: url(https://images.unsplash.com/photo-1508921108053-9f757ead871c?w=1360);
-  background-size: cover;
-  background-position: center;
-  color: white;
-  padding: 40px;
-  
-  &:before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.7);
-    display: block;
-    position: absolute;
-    box-shadow: inset 0 -100px 250px rgb(0, 0, 0);
-    top: 0;
-    left: 0;
-  }
-  
-  .site_name {
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
-    
-    p {
-      font-size: 32px;
-      margin-bottom: 35px;
-      font-weight: 100;
-    }
-  }
-  
-  nav {
-    a {
-      color: white;
-      font-weight: 300;
-      font-style: italic;
-    }
-  }
-}
-
-.site_middle {
-  width: 70%;
-  overflow-Y: scroll;
-  padding: 35px 50px 35px;
-  
-  &::-webkit-scrollbar {
-    width: 20px;
-  }
-  
-  &::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 0 8px white;
-    background: $silver;
-  }
-  
-  .site_bottom {
-    font-size: 13px;
-    color: $gray;
-  }
-}
-
-.post {
-  margin-bottom: 30px;
-  
-  h1.post_title {
-    font-size: 28px;
-    margin: 0 0 9px;
-    
-    a {
-      color: $black;
-      text-decoration: none;
-      
-      &:hover {
-        color: $red;
-        text-decoration: underline;
-      }
-    }
-  }
-  
-  div.post_entry {
-    font-size: 15px;
-    color: $gray;
-  }
-  
-  p.post_date {
-    color: $silver;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin: 0 0 7px;
-  }
-  
-  .post_tags {
-    margin: 0 0 12px;
-    
-    a {
-      display: inline-block;
-      color: $gray;
-      text-decoration: none;
-      font-size: 13px;
-      padding: 0 5px;
-      text-transform: uppercase;
-      transition: all .2s;
-      
-      &:hover {
-        text-decoration: underline;
-        color: $red;
-      }
-    }
-  }
+h3.post_title a:hover {
+    color: red
 }
