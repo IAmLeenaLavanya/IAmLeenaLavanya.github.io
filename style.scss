@@ -83,7 +83,7 @@ body {
 .site_top p {
   font-size: 40px;
   font-weight: 600;
-  margin-bottom: 20px
+  margin-bottom: 25px
 }
 
 .site_top nav {
@@ -95,13 +95,14 @@ body {
 /* ------------------------------------- */
 
 .posts {
-    padding: 40px 80px
+    padding: 40px 80px;
 }
 
 .post {
     width: calc(100% / 3 - 40px);
     display: inline-block;
-    margin-bottom: 30px
+    margin-bottom: 40px;
+  vertical-align: top
 }
 
 .post:not(:nth-of-type(3n)) {
