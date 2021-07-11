@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Short CSS Base Reset - Essential CSS Properties to Reset [Reference]
+title: "Short CSS Base Reset - Essential CSS Properties to Reset [Reference]"
 date: 2021-07-11 12:00:00 +0800
 tags: [css]
 published: true
