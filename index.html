@@ -11,7 +11,7 @@ layout: default
       </h3>
 
       <div class="category_item_entry">
-        <p>{{ post.excerpt | truncatewords: 50 | strip_html }}</p>
+        <p>{{ post.excerpt | strip_html  | truncatewords: 50}}</p>
       </div>
     </article>
   {% endfor %}
